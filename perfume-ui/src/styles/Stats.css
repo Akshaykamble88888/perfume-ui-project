@@ -1,0 +1,38 @@
+.stats {
+  text-align: center;
+  padding: 60px;
+  background: #f6f1f2;
+}
+
+.stats h2 {
+  margin-bottom: 40px;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.stats-box h3 {
+  color: #d36b72;
+  font-size: 32px;
+}
+
+.stats {
+  background: #f7eff1;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.stats-inner {
+  width: 1200px;
+  margin: auto;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+}

@@ -1,0 +1,195 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Poppins", sans-serif;
+}
+
+body{
+background:#f6eeee;
+}
+
+.page{
+max-width:1200px;
+margin:auto;
+background:white;
+border-radius:20px;
+overflow:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:white;
+}
+
+.navbar nav a{
+margin:0 15px;
+cursor:pointer;
+}
+
+.icons{
+font-size:20px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+padding:60px 40px;
+background:linear-gradient(90deg,#f6eaea,#ffffff);
+}
+
+.hero-left{
+flex:1;
+}
+
+.hero-left h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero-left p{
+color:gray;
+margin-bottom:20px;
+}
+
+.hero-left button{
+background:#e88f8f;
+color:white;
+border:none;
+padding:12px 24px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.hero-right{
+flex:1;
+}
+
+.hero-right img{
+width:100%;
+}
+
+/* SECOND */
+
+.second{
+display:flex;
+align-items:center;
+padding:60px 40px;
+background:#f8eeee;
+}
+
+.second-left{
+flex:1;
+}
+
+.second-left h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.second-left p{
+color:#666;
+margin-bottom:20px;
+}
+
+.second-left button{
+background:#b84c5c;
+color:white;
+border:none;
+padding:12px 24px;
+border-radius:8px;
+}
+
+.second-right{
+flex:1;
+text-align:center;
+}
+
+.second-right img{
+height:350px;
+}
+
+/* STATS */
+
+.stats{
+text-align:center;
+padding:60px 20px;
+}
+
+.stat-grid{
+display:flex;
+justify-content:center;
+gap:80px;
+margin-top:30px;
+}
+
+.stat-grid h2{
+color:#e26b6b;
+}
+
+/* TESTIMONIAL */
+
+.testimonials{
+padding:60px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+width:260px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.user{
+display:flex;
+align-items:center;
+gap:10px;
+margin-top:15px;
+}
+
+.user img{
+width:40px;
+height:40px;
+border-radius:50%;
+}
+
+/* FOOTER */
+
+.footer{
+background:#f3eaea;
+padding:50px 40px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:2fr 1fr 1fr 1fr;
+gap:40px;
+}
+
+.footer a{
+display:block;
+margin-top:10px;
+color:#444;
+}
+
+.copyright{
+margin-top:30px;
+text-align:center;
+color:#777;
+}

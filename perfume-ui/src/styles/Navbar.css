@@ -1,0 +1,31 @@
+.navbar {
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+.nav-inner {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.buy-btn {
+  background: #e58c94;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}

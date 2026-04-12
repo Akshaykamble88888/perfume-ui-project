@@ -1,0 +1,21 @@
+.footer{
+background:#f7f3f4;
+padding:60px;
+}
+
+.footer-grid{
+display:flex;
+justify-content:space-between;
+}
+
+.footer {
+  background: #f7eff1;
+  padding: 60px 0;
+}
+
+.footer-inner {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
