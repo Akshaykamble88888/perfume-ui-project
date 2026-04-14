@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="page">
 
-      {/* NAVBAR */}
+  
       <header className="navbar">
         <div className="logo">🌸 Acme</div>
 
@@ -26,7 +26,7 @@ export default function App() {
         </div>
       </header>
 
-      {/* HERO */}
+   
       <section className="hero">
         <div className="hero-left">
           <h1>Discover Your <br/> Signature Scent</h1>
@@ -39,7 +39,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECOND */}
       <section className="second">
         <div className="second-left">
           <h2>A New Standard Of Luxury Fragrance</h2>
@@ -55,7 +54,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* STATS */}
+
       <section className="stats">
         <h3>Supported By Science, Driven By Results</h3>
 
@@ -77,7 +76,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* TESTIMONIAL */}
+ 
       <section className="testimonials">
         <h2>Client testimonials</h2>
 
@@ -108,7 +107,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="footer">
 
         <div className="footer-grid">
