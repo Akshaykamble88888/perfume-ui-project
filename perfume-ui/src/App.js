@@ -12,7 +12,7 @@ export default function App() {
 
   
       <header className="navbar">
-        <div className="logo">🌸 Acme</div>
+        <div className="logo">🌸 Taaj</div>
 
         <nav>
           <a>Home</a>
@@ -82,7 +82,7 @@ export default function App() {
 
         <div className="cards">
           <div className="card">
-            <p>Incredible Experience I've been feeling really confident lately…</p>
+            <p>Good smell and longlasting </p>
 
             <div className="user">
               <img src={user1} />
@@ -94,7 +94,7 @@ export default function App() {
           </div>
 
           <div className="card">
-            <p>Genious products I've tried so many things for my skin…</p>
+            <p>Perfumes smell seems like good like it..!</p>
 
             <div className="user">
               <img src={user2} />
@@ -112,9 +112,8 @@ export default function App() {
         <div className="footer-grid">
 
           <div>
-            <h3>🌸 Acme</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h3>🌸 Taaj</h3>
+            <p>Taaj Perfumes
             </p>
           </div>
 
